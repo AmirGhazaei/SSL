@@ -1,4 +1,5 @@
-1. trust cert on server
+1. Trust cert on server
+    1. Run Windows Power Shell or CMD as administrator
     1. certutil -addstore -f "ROOT" new-root-certificate.crt
 
 1. Convert pem to pfx
